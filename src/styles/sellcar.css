@@ -142,10 +142,52 @@
 .box__05 .spend__amount {
   color: #725cff;
 }
-@media only screen and (max-width:1090px) {
+/* @media only screen and (max-width:1090px) {
     .settings__top{
         display: flex;
         flex-wrap: wrap;
     }
     
+} */
+@media only screen and (max-width:576px){
+  .sell__car-top{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 5px;
+   
+  }
+  .tracking__history{
+    display:grid;
+  }
+  .offer__item{
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+
+  }
+  .sell__car-img{
+    width: 400px;
+  }
+  .tracking__history{width: 400px;}
+  .tracking__history span{
+    width: 350px;
+  }
+  .tracking__history h3{
+    margin-bottom: 10px;
+  }
+  .box__02{
+    display: grid;
+    margin-top:10px;
+  }
 }
+@media only screen and (max-width:490px){
+  .filter__widget-02{
+    margin-left:10px ;
+  }
+}
+@media only screen and (max-width:420px){
+  .filter__widget-02{
+    margin-left:50px ;
+  }
+  .offer__list{
+    width: 300px;
+  }}

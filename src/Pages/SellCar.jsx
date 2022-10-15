@@ -17,7 +17,7 @@ const SellCar = () => {
           </div>
           <div className="tracking__history">
             <h3>Tacking History</h3>
-            <TrackingChart />
+            <span ><TrackingChart /></span>
           </div>
         </div>
         <div className="offer__wrapper">

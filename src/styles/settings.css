@@ -112,3 +112,13 @@
   .update__btn {
     color: var(--secondary-color);
   }
+  @media only screen and (max-width:576px){
+    .settings__top  {
+      display: grid;
+      grid-gap:2px;
+
+    }
+    .settings__wrapper{
+      width: 400px;
+    }
+  }
