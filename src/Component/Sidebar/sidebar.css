@@ -86,3 +86,23 @@
     padding: 6px;
     border-radius: 5px;
   }
+  /* .display{
+    display: none;
+  }
+  .sidebar__top{
+    display: none;
+  }
+ .sidebar{
+  width: 80px;
+ } */
+@media only screen and (max-width:450px){
+  .display{
+    display: none;
+  }
+  .sidebar__top{
+    display: none;
+  }
+ .sidebar{
+  width: 75px;
+ }
+}

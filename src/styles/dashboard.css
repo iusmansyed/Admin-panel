@@ -6,6 +6,7 @@
   
   .single__card {
     padding: 20px;
+    width: 300px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -64,6 +65,7 @@
     padding: 30px;
     border-radius: 5px;
     height: 320px;
+    width: 500px;
     padding-bottom: 50px;
   }
   
@@ -149,3 +151,47 @@ background: linear-gradient(to right, #A5FECB, #20BDFF, #5433FF); /* W3C, IE 10+
     align-items: center;
     column-gap: 1rem;
   }
+  @media only screen and (max-width:450px){
+   
+    .dashboard{
+      margin-left:-200px;
+    }
+    .statics{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    
+    }
+    .dashboard__cards{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      grid-gap: 20px;
+      width: 200px;
+    }
+    .recommend__cars-wrapper {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      margin-top: 2rem;
+      column-gap: 2rem;
+    }
+    .stats{
+     width: 20rem;
+     
+    }
+    .dashboard{
+      float: left;
+      margin-left: -210px;
+    }
+    .single__card:nth-child(1){
+      width: 8.5rem;
+    }
+    .single__card:nth-child(2){
+      width: 8.5rem;
+    }
+    .single__card:nth-child(3){
+      width: 8.5rem;
+    }
+    .single__card:nth-child(4){
+      width: 8.5rem;
+    }
+  } 
+  

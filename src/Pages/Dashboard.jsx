@@ -37,10 +37,13 @@ const Dashboard = () => {
     <div className="dashboard">
       <div className="dashboard__wrapper">
         <div className="dashboard__cards">
+         
           <SingleCard item={carObj} />
           <SingleCard item={tripObj} />
+         
           <SingleCard item={clientObj} />
           <SingleCard item={distanceObj} />
+         
         </div>
 
         <div className="statics">
@@ -57,7 +60,10 @@ const Dashboard = () => {
 
         <div className="recommend__cars-wrapper">
           {recommendCarsData.map((item) => (
-            <RecommendCarCard item={item} key={item.id} />
+           <span className="caarrs">
+
+           <RecommendCarCard item={item} key={item.id} />
+           </span>
           ))}
         </div>
       </div>

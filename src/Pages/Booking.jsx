@@ -25,9 +25,14 @@ const Booking = () => {
         </div>
        
        <div className="booking__car-list">
+        
        {
-        carData.map((item)=><Caritems item={item} key={item.id}/>)
+        carData.map((item)=>
+
+        <Caritems item={item} key={item.id}/>)
+       
        }
+      
        </div>
       </div>
     </div>
