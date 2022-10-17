@@ -110,6 +110,9 @@
   width: 90%;
 }
 @media only screen and (max-width:450px){
+.booking{
+  padding-right: 100px;
+}
   .booking__car-list {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -123,8 +126,13 @@
   .booking__car-list{
     width: 100px;
   }
-  .pp{
-    width: 250px;
+  .filter__widget-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* column-gap: -5px; */
+  }
+  .filter__widget-01{
+   width: 80px;
   }
   .car_item:nth-child(1) .car__img img{
     width: 90%;

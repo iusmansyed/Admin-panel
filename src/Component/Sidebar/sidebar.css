@@ -103,6 +103,14 @@
     display: none;
   }
  .sidebar{
-  width: 75px;
+  width: 10px;
+  margin-left: -15px;
+  position: fixed;
+  background: none;
+  padding-right: 100px;
+  padding-left: 20px;
+ }
+ .log-out p{
+display: none;
  }
 }

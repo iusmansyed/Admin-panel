@@ -1,13 +1,13 @@
 import React from "react";
-import "../styles/settings.css";
+import "../styles/settings.css"
 
 const Settings = () => {
   return (
     <div className="settings">
-      <div className="settings__wrapper">
+      <div className="settings__wrapper" >
         <h2 className="settings__title">Settings</h2>
 
-        <div className="settings__top">
+        <div className="settings__top" >
           <button className="setting__btn">My Details</button>
           <button className="setting__btn active__btn">Profile</button>
           <button className="setting__btn">Password</button>
@@ -15,7 +15,7 @@ const Settings = () => {
           <button className="setting__btn">Notification</button>
         </div>
 
-        <div className="details__form">
+        <div className="details__form" >
           <h2 className="profile__title">Profile</h2>
           <p className="profile__desc">
             Update your photo and personal details here

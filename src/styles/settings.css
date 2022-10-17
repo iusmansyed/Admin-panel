@@ -1,13 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 .settings {
     margin-top: 100px;
-    padding: 0px 30px;
+    padding: 0px 100px;
     padding-bottom: 50px;
+    width: 1200px;
   }
   
   .settings__wrapper {
     padding: 20px;
     border-radius: 5px;
     background: var(--primary-color);
+    
   }
   
   .settings__title {
@@ -49,7 +55,7 @@
     margin-bottom: 2rem;
   }
   
-  label {
+ label {
     color: var(--heading-color);
     margin-bottom: 5px;
     font-size: 0.9rem;
@@ -119,6 +125,6 @@
 
     }
     .settings__wrapper{
-      width: 400px;
+      width: 400%;
     }
   }
