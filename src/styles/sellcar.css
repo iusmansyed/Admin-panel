@@ -191,7 +191,7 @@
   
 
 }
-@media only screen and (max-width:490px){
+@media only screen and (max-width:420px){
   .filter__widget-02{
     margin-left:10px ;
   }
@@ -202,4 +202,12 @@
   }
   .offer__list{
     width: 300px;
-  }}
+  }
+  .sell__car-wrapper{
+    margin-left:-150px;
+  }
+
+  .sell__car{
+    margin-left: -50px;
+  }
+}

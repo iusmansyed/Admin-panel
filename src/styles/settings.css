@@ -3,10 +3,12 @@
   padding: 0;
 }
 .settings {
-    margin-top: 100px;
+    margin-top: 80px;
     padding: 0px 100px;
     padding-bottom: 50px;
-    width: 1200px;
+    width: 70pc;
+    margin-left: -100px;
+    
   }
   
   .settings__wrapper {
@@ -125,6 +127,16 @@
 
     }
     .settings__wrapper{
-      width: 400%;
+      width: 500px;
+      margin-left: 210px;
+    }
+    .settings{
+      margin-left: -300px;
+    }
+  }
+  @media only screen and (max-width:500px){
+    .settings__wrapper{
+      margin-left: -8px;
+      width: 92.5%;
     }
   }

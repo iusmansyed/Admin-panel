@@ -95,7 +95,7 @@
  .sidebar{
   width: 80px;
  } */
-@media only screen and (max-width:450px){
+@media only screen and (max-width:500px){
   .display{
     display: none;
   }

@@ -108,3 +108,11 @@
     height: 30px;
   }
 }
+@media only screen and (max-width: 500px) {
+  .top__nav {
+    margin-left: -200px;
+    width: 78%;
+    position: fixed;
+
+}
+}
