@@ -80,8 +80,8 @@
 .booking__car-list {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  column-gap: 2rem;
-  row-gap: 2rem;
+  column-gap: 1.2rem;
+  row-gap: 1.2rem;
 }
 .car__item-tile h3{
   font-size: 1rem;

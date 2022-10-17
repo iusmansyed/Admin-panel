@@ -1,6 +1,8 @@
 import React from 'react'
-
+import "./ui.css"
+import {HeartOutlined , HeartFilled  } from '@ant-design/icons';
 const Caritems = (props) => {
+  const [state , setState]=React.useState(true)
   const {category,type, rentPrice, imgUrl, carName,groupSize }= props.item
   return (
     <div className="car_item">
@@ -10,7 +12,7 @@ const Caritems = (props) => {
            <p >{category}</p>
            
            </div>
-           <span><i class="ri-heart-line"></i></span>
+           <span className='heart' onClick={()=>setState(!state)?<HeartOutlined/>:<HeartFilled style={{color:"red" , size:"2000 "}}/>}> { state ? <HeartOutlined/> : <HeartFilled style={{color:"red" , fontSize:22}}/>} </span>
           </div>
           <div className="car__img">
             <img src={imgUrl} alt="" />

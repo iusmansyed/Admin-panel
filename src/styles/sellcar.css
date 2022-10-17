@@ -45,9 +45,10 @@
   padding-top: 15px;
 }
 .offer__top {
-  display: flex;
-  
- 
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  column-gap: 450px;
+margin-left: 20px;
 }
 #drop-Down{
   margin-left: 300px;
@@ -66,7 +67,7 @@
   grid-template-columns: repeat(5, 1fr);
   column-gap: 2rem;
   margin-bottom: 2rem;
-  width: 600px;
+  width: 1000px;
 }
 .box__02 {
   height: 100%;
