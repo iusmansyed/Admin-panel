@@ -29,6 +29,7 @@
   background: var(--primary-color);
   height: 300px;
   cursor: pointer;
+  width: 500px;
 }
 .tracking__history h3 {
   color: var(--heading-color);
@@ -45,10 +46,15 @@
 }
 .offer__top {
   display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  margin-top: 3rem;
+  
+ 
 }
+#drop-Down{
+  margin-left: 300px;
+  margin-top: 15px;
+}
+
+
 .offer__top h2 {
   margin-top: -2px;
 }
@@ -60,6 +66,7 @@
   grid-template-columns: repeat(5, 1fr);
   column-gap: 2rem;
   margin-bottom: 2rem;
+  width: 600px;
 }
 .box__02 {
   height: 100%;
@@ -142,13 +149,7 @@
 .box__05 .spend__amount {
   color: #725cff;
 }
-/* @media only screen and (max-width:1090px) {
-    .settings__top{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    
-} */
+
 @media only screen and (max-width:576px){
   .sell__car-top{
     display: grid;
@@ -162,6 +163,7 @@
   .offer__item{
     display:grid;
     grid-template-columns: repeat(1,1fr);
+    width: 300px;
 
   }
   .sell__car-img{
@@ -178,6 +180,16 @@
     display: grid;
     margin-top:10px;
   }
+  #drop-Down{
+    margin-left: 100px;
+    margin-top: 15px;
+  }
+  .sell__car-title{
+    
+    font-size: 20px;
+  }
+  
+
 }
 @media only screen and (max-width:490px){
   .filter__widget-02{
