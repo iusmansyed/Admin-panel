@@ -2,6 +2,7 @@
   margin-top: 10vh;
   padding-right: 15px;
   margin-bottom: 10vh;
+  margin-left: 300px;
 }
 .sell__car-img {
   padding: 20px;
@@ -164,11 +165,17 @@ margin-left: 20px;
   .offer__item{
     display:grid;
     grid-template-columns: repeat(1,1fr);
-    width: 300px;
+    /* width: 100px; */
 
   }
   .sell__car-img{
-    width: 400px;
+    width: 20px;
+  }
+  .sell__car-img h2{
+    width: 20px;
+  }
+  .sell__car-img img{
+    width: 250px;
   }
   .tracking__history{width: 400px;}
   .tracking__history span{
@@ -192,7 +199,7 @@ margin-left: 20px;
   
 
 }
-@media only screen and (max-width:420px){
+@media only screen and (max-width:1318px){
   .filter__widget-02{
     margin-left:10px ;
   }
@@ -201,13 +208,17 @@ margin-left: 20px;
   .filter__widget-02{
     margin-left:50px ;
   }
-  .offer__list{
-    width: 300px;
+  .offer__top{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
   }
   .sell__car-wrapper{
-    margin-left:-150px;
+    margin-left:110px;
   }
-
+  .sell__car-top{
+    display: grid;
+    
+  }
   .sell__car{
     margin-left: -50px;
   }

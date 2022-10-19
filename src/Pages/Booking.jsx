@@ -2,8 +2,16 @@ import React from "react";
 import "../styles/booking.css";
 import carData from "../assets/Dummydata/booking-car"
 import Caritems from "../Component/UI/Caritems";
+import Sidebar from "../Component/Sidebar/Sidebar";
+import TopNav from "../Component/Topnav/Topnav";
+
 const Booking = () => {
   return (
+<>
+<div>
+
+
+
     <div className="booking">
       <div className="booking__wrapper">
         <h2 className="booking__title">Booking</h2>
@@ -33,9 +41,15 @@ const Booking = () => {
        
        }
       
-       </div>
-      </div>
     </div>
+       </div>
+<TopNav/>
+</div>
+<div>
+<Sidebar/>
+</div>
+      </div>
+  </>
   );
 };
 

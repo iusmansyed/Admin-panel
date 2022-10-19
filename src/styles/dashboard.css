@@ -1,13 +1,13 @@
 .dashboard {
     margin-top: 100px;
-    padding: 0px 20px;
+    padding: 0px 10px;
     padding-bottom: 50px;
-    margin-left: -20px;
+    margin-left: 300px;
   }
   
   .single__card {
     padding: 20px;
-    width:200px;
+    width:280px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -51,7 +51,7 @@
   .dashboard__cards {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    column-gap: 2rem;
+    column-gap: 1rem;
   }
   
   .statics {
@@ -155,11 +155,20 @@ background: linear-gradient(to right, #A5FECB, #20BDFF, #5433FF); /* W3C, IE 10+
   .caarrs{
     width: 300px;
   }
-  @media only screen and (max-width:450px){
-   /* .dashboard{
-    margin-left: -200px;
-   } */
-    
+  @media only screen and (max-widht:1498px) {
+    .single__card {
+      padding: 20px;
+      width:200px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  }
+  @media only screen and (max-width:600px){
+   
+   
     .statics{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -182,8 +191,8 @@ background: linear-gradient(to right, #A5FECB, #20BDFF, #5433FF); /* W3C, IE 10+
      
     }
     .dashboard{
-      float: left;
-      margin-left: -210px;
+      /* float: left; */
+      margin-left: 45px;
     }
     .single__card:nth-child(1){
       width: 8.5rem;
@@ -197,5 +206,338 @@ background: linear-gradient(to right, #A5FECB, #20BDFF, #5433FF); /* W3C, IE 10+
     .single__card:nth-child(4){
       width: 8.5rem;
     }
+  } 
+  @media only screen and (max-width:1350px){
+    .dashboard__wrapper{
+margin-left: 300px;
+    }
+   
+    .statics{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+    }
+    .dashboard__cards{
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+      grid-gap: 30px;
+      width: 100px;
+
+    }
+    .recommend__cars-wrapper {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      margin-top: 2rem;
+      column-gap: 2rem;
+      row-gap: 2rem;
+    }
+    .stats{
+     width: 18rem;
+     
+    }
+    .dashboard{
+      /* float: left; */
+      margin-left: 45px;
+    }
+    .single__card:nth-child(1){
+      width: 8.5rem;
+    }
+    .single__card:nth-child(2){
+      width: 8.5rem;
+    }
+    .single__card:nth-child(3){
+      width: 8.5rem;
+    }
+    .single__card:nth-child(4){
+      width: 8.5rem;
+    }
+    
+  } 
+  @media only screen and (max-width:1076px){
+    .dashboard__wrapper{
+margin-left: 300px;
+    }
+   
+    .statics{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+    }
+    .dashboard__cards{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      grid-gap: 30px;
+      width: 100px;
+margin-left: 150px;
+    }
+    .recommend__cars-wrapper {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      margin-top: 2rem;
+      column-gap: 2rem;
+      row-gap: 2rem;
+    }
+    .stats{
+     width: 18rem;
+     
+    }
+    .dashboard{
+      /* float: left; */
+      margin-left: 45px;
+    }
+    .single__card:nth-child(1){
+      width: 8.5rem;
+    }
+    .single__card:nth-child(2){
+      width: 8.5rem;
+    }
+    .single__card:nth-child(3){
+      width: 8.5rem;
+    }
+    .single__card:nth-child(4){
+      width: 8.5rem;
+    }
+    
+  } 
+  @media only screen and (max-width:1046px){
+    .dashboard__wrapper{
+margin-left: 300px;
+    }
+   
+    .statics{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 2rem;
+    margin-left: 155px;
+    }
+    .dashboard__cards{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      grid-gap: 30px;
+      width: 100px;
+margin-left: 150px;
+    }
+    .recommend__cars-wrapper {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      margin-top: 2rem;
+      column-gap: 2rem;
+      row-gap: 2rem;
+    margin-left: 150px;
+    }
+    .stats{
+     width: 18rem;
+     
+    }
+    .dashboard{
+      /* float: left; */
+      margin-left: 45px;
+    }
+    .single__card:nth-child(1){
+      width: 8.5rem;
+    }
+    .single__card:nth-child(2){
+      width: 8.5rem;
+    }
+    .single__card:nth-child(3){
+      width: 8.5rem;
+    }
+    .single__card:nth-child(4){
+      width: 8.5rem;
+    }
+    
+  } 
+  
+  @media only screen and (max-width:950px){
+    .dashboard__wrapper{
+margin-left: 100px;
+    }
+   
+    .statics{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 2rem;
+    margin-left: 155px;
+    }
+    .dashboard__cards{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      grid-gap: 30px;
+      width: 100px;
+margin-left: 150px;
+    }
+    .recommend__cars-wrapper {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      margin-top: 2rem;
+      column-gap: 2rem;
+      row-gap: 2rem;
+    margin-left: 150px;
+    }
+    .stats{
+     width: 18rem;
+     
+    }
+    .dashboard{
+      /* float: left; */
+      margin-left: 45px;
+    }
+    .single__card:nth-child(1){
+      width: 8.5rem;
+    }
+    .single__card:nth-child(2){
+      width: 8.5rem;
+    }
+    .single__card:nth-child(3){
+      width: 8.5rem;
+    }
+    .single__card:nth-child(4){
+      width: 8.5rem;
+    }
+    
+  } 
+  @media only screen and (max-width:655px){
+    .dashboard__wrapper{
+margin-left: -100px;
+    }
+   
+    .statics{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 2rem;
+    margin-left: 155px;
+    }
+    .dashboard__cards{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      grid-gap: 30px;
+      width: 100px;
+margin-left: 150px;
+    }
+    .recommend__cars-wrapper {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      margin-top: 2rem;
+      column-gap: 2rem;
+      row-gap: 2rem;
+    margin-left: 150px;
+    }
+    .stats{
+     width: 18rem;
+     
+    }
+    .dashboard{
+      /* float: left; */
+      margin-left: 45px;
+    }
+    .single__card:nth-child(1){
+      width: 8.5rem;
+    }
+    .single__card:nth-child(2){
+      width: 8.5rem;
+    }
+    .single__card:nth-child(3){
+      width: 8.5rem;
+    }
+    .single__card:nth-child(4){
+      width: 8.5rem;
+    }
+    
+  } 
+  @media only screen and (max-width:450px){
+    .dashboard__wrapper{
+margin-left: -150px;
+    }
+   
+    .statics{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 2rem;
+    margin-left: 155px;
+    }
+    .dashboard__cards{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      grid-gap: 30px;
+      width: 100px;
+margin-left: 150px;
+    }
+    .recommend__cars-wrapper {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      margin-top: 2rem;
+      column-gap: 2rem;
+      row-gap: 2rem;
+    margin-left: 150px;
+    }
+    .stats{
+     width: 18rem;
+     
+    }
+    .dashboard{
+      /* float: left; */
+      margin-left: 45px;
+    }
+    .single__card:nth-child(1){
+      width: 8.5rem;
+    }
+    .single__card:nth-child(2){
+      width: 8.5rem;
+    }
+    .single__card:nth-child(3){
+      width: 8.5rem;
+    }
+    .single__card:nth-child(4){
+      width: 8.5rem;
+    }
+    
+  } 
+  @media only screen and (max-width:385px){
+    .dashboard__wrapper{
+margin-left: -180px;
+    }
+   
+    .statics{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    
+    }
+    .dashboard__cards{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      grid-gap: 8px;
+      width: 100px;
+
+    }
+    .recommend__cars-wrapper {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      margin-top: 2rem;
+      column-gap: 2rem;
+    }
+    .stats{
+     width: 18rem;
+     
+    }
+    .dashboard{
+      /* float: left; */
+      margin-left: 45px;
+    }
+    .single__card:nth-child(1){
+      width: 8.5rem;
+    }
+    .single__card:nth-child(2){
+      width: 8.5rem;
+    }
+    .single__card:nth-child(3){
+      width: 8.5rem;
+    }
+    .single__card:nth-child(4){
+      width: 8.5rem;
+    }
+    .recommend__cars span{
+      width: 200px;
+    }
+   
   } 
   

@@ -8,15 +8,11 @@ const Layout = () => {
     <>
     <div className="container">
 
-      <div className="Layout">
-        <Sidebar />
-        <div className="main__layout">
-          <Topnav />
+     
           <div className="content">
             <Router />
           </div>
-        </div>
-      </div>
+        
     </div>
     </>
   );

@@ -37,12 +37,16 @@ const Sidebar = () => {
               ))}
             </ul>
           </div>
+ 
+<div>
+       
 
-          <div className="sidebar__bottom">
-            <span className="log-out">
-              <i class="ri-logout-circle-r-line"></i> <p> Logout </p>
-            </span>
-          </div>
+  
+
+
+</div>
+    
+         
         </div>
       </div>
     </>

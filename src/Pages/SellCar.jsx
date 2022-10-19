@@ -3,6 +3,9 @@ import "../styles/sellcar.css";
 import Sellcar from "../assets/images/sell-car.png";
 import TrackingChart from "../charts/TrackingChart";
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
+import TopNav from "../Component/Topnav/Topnav";
+import Sidebar from "../Component/Sidebar/Sidebar";
+
 const SellCar = () => {
   const percentage = 55;
   const percentage02 = 60;
@@ -141,6 +144,8 @@ const SellCar = () => {
           </div>
         </div>
       </div>
+<TopNav/>
+<Sidebar/>
     </div>
   );
 };

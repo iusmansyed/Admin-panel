@@ -1,12 +1,13 @@
 import React from "react";
 import "../styles/dashboard.css";
 import SingleCard from "../Component/reuseable/SingleCard";
-
 import MileChart from "../charts/MileChart";
 import CarStatsChart from "../charts/CarStatsChart";
 import RecommendCarCard from "../Component/UI/RecommendCarCard";
 
 import recommendCarsData from "../assets/Dummydata/recommendCars";
+import Sidebar from "../Component/Sidebar/Sidebar";
+import TopNav from "../Component/Topnav/Topnav";
 
 const carObj = {
   title: "Total Cars",
@@ -67,7 +68,12 @@ const Dashboard = () => {
           ))}
         </div>
       </div>
+    <div>
     </div>
+    <TopNav/>
+    <Sidebar/>
+    </div>
+    
   );
 };
 
