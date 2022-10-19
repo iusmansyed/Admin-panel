@@ -1,0 +1,81 @@
+[debug] [2022-10-19T08:18:22.861Z] ----------------------------------------------------------------------
+[debug] [2022-10-19T08:18:22.864Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\owais\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2022-10-19T08:18:22.865Z] CLI Version:   11.9.0
+[debug] [2022-10-19T08:18:22.865Z] Platform:      win32
+[debug] [2022-10-19T08:18:22.865Z] Node Version:  v18.11.0
+[debug] [2022-10-19T08:18:22.867Z] Time:          Wed Oct 19 2022 13:18:22 GMT+0500 (Pakistan Standard Time)
+[debug] [2022-10-19T08:18:22.867Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-10-19T08:18:22.872Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2022-10-19T08:18:23.029Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-10-19T08:18:23.030Z] > authorizing via signed-in user (syedmuhammadusman015@gmail.com)
+[debug] [2022-10-19T08:18:23.030Z] [iam] checking project admin-panel-uber-x for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-10-19T08:18:23.032Z] > refreshing access token with scopes: []
+[debug] [2022-10-19T08:18:23.033Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2022-10-19T08:18:23.033Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-10-19T08:18:23.451Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2022-10-19T08:18:23.451Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-10-19T08:18:23.464Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/admin-panel-uber-x:testIamPermissions [none]
+[debug] [2022-10-19T08:18:23.464Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/admin-panel-uber-x:testIamPermissions x-goog-quota-user=projects/admin-panel-uber-x
+[debug] [2022-10-19T08:18:23.465Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/admin-panel-uber-x:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-10-19T08:18:24.344Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2022-10-19T08:18:24.344Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2022-10-19T08:18:25.979Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/admin-panel-uber-x:testIamPermissions 200
+[debug] [2022-10-19T08:18:25.979Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/admin-panel-uber-x:testIamPermissions {}
+[debug] [2022-10-19T08:18:25.980Z] [iam] error while checking permissions, command may fail: FirebaseError: Authorization failed. This account is missing the following required permissions on project admin-panel-uber-x:
+
+  firebase.projects.get
+  firebasehosting.sites.update
+[debug] [2022-10-19T08:18:25.981Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/admin-panel-uber-x [none]
+[debug] [2022-10-19T08:18:26.640Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/admin-panel-uber-x 403
+[debug] [2022-10-19T08:18:26.641Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/admin-panel-uber-x {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2022-10-19T08:18:26.642Z] HTTP Error: 403, The caller does not have permission
+[debug] [2022-10-19T08:18:27.010Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\owais\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\owais\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:288:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project admin-panel-uber-x. Please make sure the project exists and your account has permission to access it.
+[debug] [2022-10-19T08:18:38.421Z] ----------------------------------------------------------------------
+[debug] [2022-10-19T08:18:38.424Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\owais\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-10-19T08:18:38.425Z] CLI Version:   11.9.0
+[debug] [2022-10-19T08:18:38.426Z] Platform:      win32
+[debug] [2022-10-19T08:18:38.426Z] Node Version:  v18.11.0
+[debug] [2022-10-19T08:18:38.427Z] Time:          Wed Oct 19 2022 13:18:38 GMT+0500 (Pakistan Standard Time)
+[debug] [2022-10-19T08:18:38.427Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-10-19T08:18:38.533Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-10-19T08:18:38.534Z] > authorizing via signed-in user (syedmuhammadusman015@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\owais\Desktop\admin-panel-1\admin-panel
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-10-19T08:18:44.053Z] Using project from CLI flag: admin-panel-uber-x
+[debug] [2022-10-19T08:18:44.057Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/admin-panel-uber-x [none]
+[debug] [2022-10-19T08:18:44.639Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/admin-panel-uber-x 403
+[debug] [2022-10-19T08:18:44.639Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/admin-panel-uber-x {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2022-10-19T08:18:44.640Z] HTTP Error: 403, The caller does not have permission
+[debug] [2022-10-19T08:18:45.026Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\owais\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\owais\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:288:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project admin-panel-uber-x. Please make sure the project exists and your account has permission to access it.

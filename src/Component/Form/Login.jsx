@@ -1,5 +1,5 @@
 import React from "react";
-import "../../styles/settings.css";
+import "./form.css"
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";

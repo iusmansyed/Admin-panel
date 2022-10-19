@@ -22,7 +22,7 @@ const navLinks = [
   {
     path: "/",
     icon: "ri-logout-circle-r-line",
-    display:"login"
+    display:"log out"
   },
 ];
 
